@@ -82,3 +82,31 @@ progress::-moz-progress-bar {
     background-color: #4CAF50;
 }
 /* Progress Bar Styling ends */
+
+/* Media Query for Mobile screens*/
+@media (max-width: 600px) {
+    .countdown-container {
+        padding: 16px;
+        width: 94%;
+    }
+
+    .time-box {
+        margin: 0 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .time-box span {
+        font-size: 2rem;
+    }
+
+    .time-box p {
+        font-size: 0.8rem;
+    }
+
+    #progress-text {
+        font-size: 1rem;
+    }
+}
